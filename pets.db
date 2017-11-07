@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sqlite3 as lite
-con = lite.connect('test.db')
+con = lite.connect('pets.db')
 
 with con:
 
